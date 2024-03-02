@@ -10,8 +10,7 @@ arch:
   - i386
 init: false
 services:
-  need:
-    - mqtt
+  - mqtt:need
 backup: hot
 map:
   - addon_config:rw
