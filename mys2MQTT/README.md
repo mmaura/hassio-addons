@@ -2,15 +2,13 @@
 
 This addon is just an nutshell on the jkandasa good mys2mqtt gateway.
 
-thank to jkandasa: https://github.com/mycontroller-org/2mqtt
+Thank to jkandasa: https://github.com/mycontroller-org/2mqtt
 
-# My Sensors Project
-With (MySensors)[https://www.mysensors.org/about] you can make sensors yourself. Good Range, small radio power...
+# MySensors Project
+With [MySensors](https://www.mysensors.org/about) you can make sensors yourself. Good Range, small radio power...
 
 
 [Addon git page](https://github.com/mmaura/hassio-addons)
-
-_Example add-on to use as a blueprint for new add-ons._
 
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armv7 Architecture][armv7-shield]

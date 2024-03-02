@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: My custom Home Assistant add-on repository
+name: mmaura Home Assistant add-on repository
 url: 'https://github.com/mmaura/hassio-addons'
 maintainer: MAURA Mathieu <mmaura66@gmail.com>
