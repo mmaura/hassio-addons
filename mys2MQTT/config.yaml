@@ -2,8 +2,8 @@
 name: "MySensors mys2MQTT"
 version: "0.0.1"
 slug: mys2MQTT
-description: "MySensors to MQTT (thank to jkandasa: https://github.com/mycontroller-org/2mqtt)"
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+description: "MySensors to MQTT"
+url: "https://github.com/mmaura/hassio-addons"
 arch:
   - armv6
   - armv7
@@ -22,4 +22,4 @@ options:
   device: "/dev/ttyACM0"
 schema:
   device(subsystem=tty): "str?"
-image: "ghcr.io/mycontroller/2mqtt/{arch}-addon-example"
+image: "ghcr.io/mycontroller/{arch}-2mqtt:1.4"
