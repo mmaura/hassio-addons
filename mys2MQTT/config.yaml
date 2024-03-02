@@ -5,9 +5,7 @@ slug: mys2MQTT
 description: "MySensors to MQTT"
 url: "https://github.com/mmaura/hassio-addons"
 arch:
-  - armv6
   - armv7
-  - arm64
   - amd64
   - i386
 init: false
