@@ -1,0 +1,25 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: "MySensors mys2MQTT"
+version: "0.0.1"
+slug: mys2MQTT
+description: "MySensors to MQTT (thank to jkandasa: https://github.com/mycontroller-org/2mqtt)"
+url: "https://github.com/home-assistant/addons-example/tree/main/example"
+arch:
+  - armv6
+  - armv7
+  - arm64
+  - amd64
+  - i386
+init: false
+services:
+  need:
+    - mqtt
+backup: hot
+map:
+  - share:rw
+  - addon_config:rw
+options:
+  device: "/dev/ttyACM0"
+schema:
+  device(subsystem=tty): "str?"
+image: "ghcr.io/mycontroller/2mqtt/{arch}-addon-example"
