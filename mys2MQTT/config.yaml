@@ -16,7 +16,6 @@ services:
     - mqtt
 backup: hot
 map:
-  - share:rw
   - addon_config:rw
 options:
   device: "/dev/ttyACM0"
