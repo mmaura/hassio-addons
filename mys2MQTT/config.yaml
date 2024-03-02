@@ -18,4 +18,5 @@ options:
   device: "/dev/ttyACM0"
 schema:
   device(subsystem=tty): "str?"
-image: "ghcr.io/mycontroller/{arch}-2mqtt"
+#image: "ghcr.io/mycontroller/{arch}-2mqtt"
+image: "ghcr.io/mycontroller/2mqtt"
